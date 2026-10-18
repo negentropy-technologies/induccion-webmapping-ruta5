@@ -1,0 +1,43 @@
+name: Tarea
+description: Tarea de docs/04-tareas.md, pequeña y con criterio y evidencia
+title: "[Tarea] "
+labels: ["tarea"]
+body:
+  - type: input
+    id: codigo
+    attributes:
+      label: Código de la tarea
+      description: Código en docs/04-tareas.md (por ejemplo A1, B3 o C2).
+    validations:
+      required: true
+  - type: dropdown
+    id: variante
+    attributes:
+      label: Variante
+      options:
+        - A (cobertura)
+        - B (relieve)
+        - C (riesgo)
+        - Común
+    validations:
+      required: true
+  - type: textarea
+    id: objetivo
+    attributes:
+      label: Objetivo
+    validations:
+      required: true
+  - type: input
+    id: criterio
+    attributes:
+      label: Criterio de aceptación
+      description: Identificador en docs/02-especificacion.md (por ejemplo CA-05).
+    validations:
+      required: true
+  - type: textarea
+    id: verificacion
+    attributes:
+      label: Verificación y evidencia
+      description: Cómo se comprueba contra QGIS y qué evidencia se anota en docs/07-registro-verificacion.md.
+    validations:
+      required: true

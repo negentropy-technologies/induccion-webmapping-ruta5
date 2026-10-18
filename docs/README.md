@@ -21,6 +21,7 @@ La especificación es la fuente de verdad; el código es su resultado y se compr
 | 5 | `05-bucle-verificacion.md` | El ciclo de trabajo con la IA y las plantillas de instrucciones | Docente |
 | 6 | `06-contrato-datos.md` | Qué datos hay, de dónde vienen y cuáles se publican | Docente |
 | 7 | `07-registro-verificacion.md` | Plantilla donde cada participante anota sus comprobaciones | Participante |
+| 8 | `08-gestion-scrum.md` | Cómo se organiza el sprint con Scrum en GitHub Projects | Docente |
 
 ## Cómo se usa en el taller
 

@@ -1,0 +1,31 @@
+name: Historia de usuario
+description: Necesidad de una persona usuaria del visor, con criterios de aceptación
+title: "[Historia] "
+labels: ["historia"]
+body:
+  - type: input
+    id: rol
+    attributes:
+      label: Como
+      description: Quién tiene la necesidad.
+    validations:
+      required: true
+  - type: textarea
+    id: quiero
+    attributes:
+      label: Quiero
+    validations:
+      required: true
+  - type: textarea
+    id: para
+    attributes:
+      label: Para
+    validations:
+      required: true
+  - type: textarea
+    id: criterios
+    attributes:
+      label: Criterios de aceptación
+      description: Identificadores de docs/02-especificacion.md y cómo se comprueba cada uno.
+    validations:
+      required: true

@@ -103,6 +103,7 @@ Capas vectoriales en GeoJSON y ráster (GeoTIFF y JPEG 2000) de la Región Metro
 ```text
 .
 ├── .github/
+│   ├── ISSUE_TEMPLATE/                Plantillas de tarea, historia de usuario y defecto
 │   └── pull_request_template.md       Plantilla de pull request con checklist
 ├── data/                              Datos de la Región Metropolitana
 │   ├── geojson/                       17 capas vectoriales (*_rm.geojson)
@@ -121,6 +122,7 @@ Capas vectoriales en GeoJSON y ráster (GeoTIFF y JPEG 2000) de la Región Metro
 │   ├── 05-bucle-verificacion.md
 │   ├── 06-contrato-datos.md
 │   ├── 07-registro-verificacion.md
+│   ├── 08-gestion-scrum.md
 │   └── README.md                      Introducción y cómo reutilizar el método
 ├── .editorconfig                      Estilo de edición común
 ├── .gitattributes                     Fin de línea y archivos binarios
@@ -146,6 +148,7 @@ La especificación es la fuente de verdad y el código es su resultado. El flujo
 | [`docs/05-bucle-verificacion.md`](docs/05-bucle-verificacion.md) | Bucle de verificación e instrucciones para la IA |
 | [`docs/06-contrato-datos.md`](docs/06-contrato-datos.md) | Contrato de datos |
 | [`docs/07-registro-verificacion.md`](docs/07-registro-verificacion.md) | Registro de verificación del participante |
+| [`docs/08-gestion-scrum.md`](docs/08-gestion-scrum.md) | Gestión del trabajo con Scrum en GitHub Projects |
 
 ## Flujo de trabajo y ramas
 
