@@ -85,7 +85,7 @@ Las versiones son fijas y se mantienen en [`docs/00-parametros.md`](docs/00-para
 
 ## Datos
 
-Capas vectoriales en GeoJSON y ráster en GeoTIFF (sistema EPSG:32719), recortados a la comuna de trabajo para respetar los límites de GitHub. La fuente, la fecha y la licencia de cada capa se declaran en [`docs/06-contrato-datos.md`](docs/06-contrato-datos.md).
+Capas vectoriales en GeoJSON y ráster (GeoTIFF y JPEG 2000) de la Región Metropolitana, en la carpeta [`data/`](data/). El recorte a la comuna de trabajo queda pendiente. La fuente, la fecha y la licencia de cada capa se declaran en [`docs/06-contrato-datos.md`](docs/06-contrato-datos.md); el detalle de contenido y exclusiones, en [`data/README.md`](data/README.md).
 
 | Dato | Descripción |
 |---|---|
@@ -104,6 +104,12 @@ Capas vectoriales en GeoJSON y ráster en GeoTIFF (sistema EPSG:32719), recortad
 .
 ├── .github/
 │   └── pull_request_template.md       Plantilla de pull request con checklist
+├── data/                              Datos de la Región Metropolitana
+│   ├── geojson/                       17 capas vectoriales (*_rm.geojson)
+│   ├── raster/
+│   │   ├── dem_metropolitana.tif      Modelo digital de elevación
+│   │   └── mapbiomas_2024_rm_32719.jp2  Cobertura del suelo MapBiomas 2024
+│   └── README.md                      Contenido y exclusiones
 ├── docs/                              Método de trabajo (SDD)
 │   ├── assets/
 │   │   └── arquitectura.svg           Diagrama de arquitectura
@@ -123,7 +129,7 @@ Capas vectoriales en GeoJSON y ráster en GeoTIFF (sistema EPSG:32719), recortad
 └── README.md
 ```
 
-Se incorporarán más adelante, y aún no existen en el repositorio: `data/` (capas GeoJSON y ráster recortados), `site/` (núcleo común del visor) y `participantes/<nombre>/` (trabajo de cada participante).
+Se incorporarán más adelante, y aún no existen en el repositorio: `site/` (núcleo común del visor) y `participantes/<nombre>/` (trabajo de cada participante).
 
 ## Metodología: Spec-Driven Development
 
