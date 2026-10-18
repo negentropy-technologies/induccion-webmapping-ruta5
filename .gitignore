@@ -1,0 +1,23 @@
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+
+# Dependencias y compilados
+node_modules/
+dist/
+
+# QGIS y datos temporales
+*.qgz~
+*.qgs~
+*.aux.xml
+*.tmp
+
+# Secretos
+.env
+*.pem
+*.key
